@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		3DB3957C2682769B000EFCAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB3957B2682769B000EFCAF /* AppDelegate.m */; };
 		3DB3957F2682769B000EFCAF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB3957E2682769B000EFCAF /* SceneDelegate.m */; };
-		3DB395822682769B000EFCAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB395812682769B000EFCAF /* ViewController.m */; };
 		3DB395852682769B000EFCAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB395832682769B000EFCAF /* Main.storyboard */; };
 		3DB395872682769E000EFCAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB395862682769E000EFCAF /* Assets.xcassets */; };
 		3DB3958A2682769E000EFCAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB395882682769E000EFCAF /* LaunchScreen.storyboard */; };
 		3DB3958D2682769E000EFCAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB3958C2682769E000EFCAF /* main.m */; };
 		3DB395972682769E000EFCAF /* TipCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB395962682769E000EFCAF /* TipCalcTests.m */; };
 		3DB395A22682769E000EFCAF /* TipCalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB395A12682769E000EFCAF /* TipCalcUITests.m */; };
+		3DB395B126828301000EFCAF /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB395B026828301000EFCAF /* TipViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3DB395772682769B000EFCAF /* TipCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB395772682769B000EFCAF /* Gratuity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gratuity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB3957A2682769B000EFCAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DB3957B2682769B000EFCAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3DB3957D2682769B000EFCAF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		3DB3957E2682769B000EFCAF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		3DB395802682769B000EFCAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3DB395812682769B000EFCAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3DB395842682769B000EFCAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DB395862682769E000EFCAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DB395892682769E000EFCAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		3DB3959D2682769E000EFCAF /* TipCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB395A12682769E000EFCAF /* TipCalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalcUITests.m; sourceTree = "<group>"; };
 		3DB395A32682769E000EFCAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB395AF26828301000EFCAF /* TipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		3DB395B026828301000EFCAF /* TipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 		3DB395782682769B000EFCAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3DB395772682769B000EFCAF /* TipCalc.app */,
+				3DB395772682769B000EFCAF /* Gratuity.app */,
 				3DB395922682769E000EFCAF /* TipCalcTests.xctest */,
 				3DB3959D2682769E000EFCAF /* TipCalcUITests.xctest */,
 			);
@@ -108,9 +108,9 @@
 				3DB3957B2682769B000EFCAF /* AppDelegate.m */,
 				3DB3957D2682769B000EFCAF /* SceneDelegate.h */,
 				3DB3957E2682769B000EFCAF /* SceneDelegate.m */,
-				3DB395802682769B000EFCAF /* ViewController.h */,
-				3DB395812682769B000EFCAF /* ViewController.m */,
 				3DB395832682769B000EFCAF /* Main.storyboard */,
+				3DB395AF26828301000EFCAF /* TipViewController.h */,
+				3DB395B026828301000EFCAF /* TipViewController.m */,
 				3DB395862682769E000EFCAF /* Assets.xcassets */,
 				3DB395882682769E000EFCAF /* LaunchScreen.storyboard */,
 				3DB3958B2682769E000EFCAF /* Info.plist */,
@@ -140,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3DB395762682769B000EFCAF /* TipCalc */ = {
+		3DB395762682769B000EFCAF /* Gratuity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DB395A62682769E000EFCAF /* Build configuration list for PBXNativeTarget "TipCalc" */;
+			buildConfigurationList = 3DB395A62682769E000EFCAF /* Build configuration list for PBXNativeTarget "Gratuity" */;
 			buildPhases = (
 				3DB395732682769B000EFCAF /* Sources */,
 				3DB395742682769B000EFCAF /* Frameworks */,
@@ -152,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = TipCalc;
+			name = Gratuity;
 			productName = TipCalc;
-			productReference = 3DB395772682769B000EFCAF /* TipCalc.app */;
+			productReference = 3DB395772682769B000EFCAF /* Gratuity.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3DB395912682769E000EFCAF /* TipCalcTests */ = {
@@ -227,7 +227,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3DB395762682769B000EFCAF /* TipCalc */,
+				3DB395762682769B000EFCAF /* Gratuity */,
 				3DB395912682769E000EFCAF /* TipCalcTests */,
 				3DB3959C2682769E000EFCAF /* TipCalcUITests */,
 			);
@@ -266,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DB395822682769B000EFCAF /* ViewController.m in Sources */,
 				3DB3957C2682769B000EFCAF /* AppDelegate.m in Sources */,
 				3DB3958D2682769E000EFCAF /* main.m in Sources */,
+				3DB395B126828301000EFCAF /* TipViewController.m in Sources */,
 				3DB3957F2682769B000EFCAF /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		3DB395942682769E000EFCAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3DB395762682769B000EFCAF /* TipCalc */;
+			target = 3DB395762682769B000EFCAF /* Gratuity */;
 			targetProxy = 3DB395932682769E000EFCAF /* PBXContainerItemProxy */;
 		};
 		3DB3959F2682769E000EFCAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3DB395762682769B000EFCAF /* TipCalc */;
+			target = 3DB395762682769B000EFCAF /* Gratuity */;
 			targetProxy = 3DB3959E2682769E000EFCAF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DB395A62682769E000EFCAF /* Build configuration list for PBXNativeTarget "TipCalc" */ = {
+		3DB395A62682769E000EFCAF /* Build configuration list for PBXNativeTarget "Gratuity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DB395A72682769E000EFCAF /* Debug */,
